@@ -15,7 +15,7 @@ class IpApi extends Base
      * @param ConfigInterface $config
      * @return \HTMLPurifier
      */
-    public function instantiate(ConfigInterface $config): \HTMLPurifier
+    public function instantiate(ConfigInterface $config): \Zer0\IpApi\IpApi
     {
         return new \Zer0\IpApi\IpApi($config);
     }
